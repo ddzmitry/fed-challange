@@ -24,7 +24,7 @@ apiRouts(app)
 
 
 app.all('*', (req, res) => {
-    res.redirect("http://localhost:3000/");
+    res.redirect("/");
 });
 
 

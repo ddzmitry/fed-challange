@@ -402,6 +402,10 @@ main {
 }
 
 .tableContent tr:first-child {
+    font-weight: 300;
+}
+
+.tableContent tr:second-child {
     font-weight: 600;
 }
 
