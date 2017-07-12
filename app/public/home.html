@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>URBANK</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body role=document>
+
+    <div class="wrapper">
+        <header id="masthead">
+            <div class="container">
+                <a role=logo href="index.html" id="logo"><img src="static/img/urbank.png" alt=""></a>
+                <nav role=navigation>
+                    <ul>
+                        <a role=link class="singlelinks" href="#">home</a>
+                        <a role=link class="singlelinks" href="#">employee</a>
+                        <a role=link class="singlelinks" href="#">company</a>
+                        <a role=link class="singlelinks" href="#">services</a>
+                        <a role=link class="singlelinks" href="#">contact</a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container">
+            <section class="main-section">
+                <h3>Best Bank Ever!</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aut nostrum explicabo eos neque, totam fuga nisi ipsa,
+                    sint earum tempora velit, vitae facere ullam rerum placeat quidem deserunt ad.</p>
+                <strong>Reasons We're Awesome</strong>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                </ul>
+
+                <div class="phone">
+                    <strong>Amazing Mobile Info</strong>
+                    <p>
+                        <img class="auth-image" src="static/img/iphone.png" alt=""> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni ullam voluptates voluptas, itaque nostrum quaerat consectetur. Tempore, sed possimus libero. Iusto hic
+                        velit magnam laboriosam nostrum ducimus nesciunt atque eveniet?
+                    </p>
+                </div>
+
+                <div class="tableContent">
+                    <h3>Rates| Check them out</h3>
+
+                    <table role=table-rates id="rates">
+
+
+
+                    </table>
+                </div>
+            </section>
+
+            <section class="sidebar">
+                <div id="connect">
+                    <p href="#login-box" role=button class="buttonlogin login-window">Login</p>
+
+                    <div class="tab">
+                        <button role=button class="tablinks " onclick="tabOpt(event, 'News')">News</button>
+                        <button role=button class="tablinks" onclick="tabOpt(event, 'Archive')">Archive</button>
+                    </div>
+
+                    <div id="News" class="tabcontent">
+                        <h3>News</h3>
+                        <ul>
+                            <a href="#">Lorem ipsum dolor sit amet</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                            <a href="#">Lorem ipsum dolor sit amet</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                            <a href="#">Lorem ipsum dolor sit amet</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+
+                        </ul>
+                    </div>
+
+                    <div id="Archive" class="tabcontent">
+                        <h3>Archive</h3>
+                        <a href="#">Lorem ipsum dolor sit amet</a>
+                        <a href="#">Lorem ipsum dolor sit amet</a>
+                        <a href="#">Lorem ipsum dolor sit amet</a>
+                        <a href="#">Lorem ipsum dolor sit amet</a>
+                        <a href="#">Lorem ipsum dolor sit amet</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div class="push"></div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <span>
+               &copy; Copyright 2017 URBANK
+            </span>
+            <nav role=navigation>
+                <ul>
+                    <arole=link class="singlelinks" href="#">home</a>
+                        <a role=link class="singlelinks" href="#">employee</a>
+                        <a role=link class="singlelinks" href="#">company</a>
+                        <a role=link class="singlelinks" href="#">services</a>
+                        <a role=link class="singlelinks" href="#">contact</a>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div id="login-box" class="login-popup">
+        <a href="#" role=button class="close"><img src="static/img/times.png" class="btn_close" title="Close Window" alt="Close" /></a>
+        <form method="post" class="signin" action="#">
+            <fieldset class="textbox">
+                <label class="username">
+        <span>Username</span>
+        <input role=textbox id="username" name="username" value="" type="text" autocomplete="on" placeholder="">    
+        </label>
+                <label class="password">
+        <span>Password</span>
+        <input role=textbox id="password" name="password" value="" type="password" placeholder="">
+        </label>
+                <button role=button class="submit button" type="button">Login</button>
+            </fieldset>
+        </form>
+    </div>
+    <!-- /.modal -->
+
+    <script src="static/script/script.js"></script>
+
+
+</body>
+
+
+</html>
