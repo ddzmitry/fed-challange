@@ -401,11 +401,7 @@ main {
     margin-top: 30px;
 }
 
-.tableContent tr:first-child {
-    font-weight: 300;
-}
-
-.tableContent tr:second-child {
+.tableContent tr:nth-child(2) {
     font-weight: 600;
 }
 
