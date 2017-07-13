@@ -14,6 +14,9 @@ function tabOpt(evt, cityName) {
 }
 
 $(document).ready(function() {
+    $('#News').css(
+        "display", "block"
+    )
     // getting data for table
     $.ajax({
         type: "get",

@@ -67,7 +67,7 @@ h3 {
     width: 100%;
     margin: 0 0 30px;
     overflow: auto;
-    background-color: lightskyblue;
+    background-color: #318fc2;
     border-bottom: 2px solid #ccc;
 }
 
@@ -122,12 +122,20 @@ td {
     padding: 8px;
 }
 
-tr:nth-child(even) {
-    background-color: #f2f2f2
+tr:nth-child(2n+3) {
+    background-color: #D8E6E8;
 }
 
 
 /* footer */
+
+footer a:hover {
+    background-color: white;
+}
+
+footer a:active {
+    background-color: white;
+}
 
 footer,
 .push {
@@ -135,12 +143,16 @@ footer,
 }
 
 footer {
+    color: #a2d5e4;
     padding: 30px 0;
     clear: both;
     font-size: 12px;
-    color: #ccc;
     text-align: center;
-    background: #666;
+    background: #e7e8ea;
+}
+
+footer a {
+    color: #a2d5e4;
 }
 
 footer span {
@@ -160,12 +172,13 @@ footer span {
 }
 
 .buttonlogin {
-    padding-left: 39px;
+    font-weight: bold;
+    text-align: center;
     margin-bottom: 31px;
     margin-top: -5px;
-    background: -moz-linear-gradient(center top, purple);
-    background: -webkit-gradient(center top, purple);
-    background: -o-linear-gradient(center top, purple);
+    background: -moz-linear-gradient(#640360);
+    background: -webkit-gradient(#640360);
+    background: -o-linear-gradient(#640360);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorStr='#f3f3f3', EndColorStr='#dddddd');
     border-color: #000;
     border-width: 1px;
@@ -176,7 +189,7 @@ footer span {
     cursor: pointer;
     display: inline-block;
     font: 8px;
-    width: 45%;
+    width: 55%;
     height: 30px;
     font-size: 14px;
 }
@@ -192,6 +205,7 @@ footer span {
 h3,
 .sidebar h2 {
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .sidebar a:last-child {
@@ -240,8 +254,7 @@ h3,
 }
 
 img.btn_close {
-    /*float: right;*/
-    margin: -28px -28px 0 0;
+    margin: -27px -21px 12px 211px;
 }
 
 fieldset {
@@ -290,6 +303,8 @@ form.signin input::-webkit-input-placeholder {
 }
 
 .button {
+    font-weight: bold;
+    text-align: center;
     float: right;
     background: -moz-linear-gradient(center top, purple);
     background: -webkit-gradient(center top, purple);
@@ -306,7 +321,7 @@ form.signin input::-webkit-input-placeholder {
     padding: 6px 6px 4px;
     margin-top: 10px;
     font: 15px;
-    width: 45%;
+    width: 55%;
 }
 
 .button:hover {
@@ -382,10 +397,22 @@ main {
     border: 1px solid #ddd;
 }
 
+.main-section h3 {
+    color: #812a7b;
+}
+
+.main-section a {
+    border-bottom: 0.5px #94cadc dotted;
+}
+
 .phone {
     margin-top: 5px;
     padding: 5px;
-    background-color: lightblue;
+    background-color: #bcd8c5;
+}
+
+.phone strong {
+    color: #812a7b;
 }
 
 .auth-image {
